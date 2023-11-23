@@ -1,0 +1,65 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://img.freepik.com/premium-photo/bouquet-flowers-love-red-beautiful-romantic-arrangement-wallpaper-image-ai-generated-art_853163-1082.jpg?size=626&ext=jpg')
+}
+.container{
+    max-width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formItem{
+    display: flex;
+}
+.formText{
+    color: rgb(246, 217, 180);
+    font-size: 17px;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+.formInp{
+    width: 900px;
+    height: 40px;
+    border: none;
+    color: bisque;
+    border: 3px solid burlywood;
+    background-color: transparent;
+
+}
+button{
+    width: 900px;
+    height: 45px;
+    font-size: 25px;
+}
+#btn{
+    font-size: 20px;
+    font-weight: b0ld;
+    background-color: transparent;
+    border: 3px solid burlywood;
+    transition: 1.5s;
+
+}
+#btn:hover{
+    background-color: bisque;
+    color: black;
+    transition: 1.5s;
+}
+#myForm input::placeholder{
+    color: wheat;
+}
+ 
+ 
